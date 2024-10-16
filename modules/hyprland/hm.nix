@@ -36,6 +36,6 @@ in {
     {
       services.hyprpaper.enable = true;
       stylix.targets.hyprpaper.enable = true;
-      wayland.windowManager.hyprland.settings = settings;
+      wayland.windowManager.hyprland.config = settings;
     };
 }
